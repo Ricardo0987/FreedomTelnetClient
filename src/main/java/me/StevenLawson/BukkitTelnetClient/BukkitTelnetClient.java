@@ -28,7 +28,7 @@ import javax.swing.SwingUtilities;
 
 public class BukkitTelnetClient
 {
-    public static final String VERSION_STRING = getVersionString();
+    public static final String VERSION_STRING = "ver 1.0";
     public static final Logger LOGGER = Logger.getLogger(BukkitTelnetClient.class.getName());
     public static BTC_MainPanel mainPanel = null;
     public static BTC_ConfigLoader config = new BTC_ConfigLoader();
